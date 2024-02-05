@@ -59,15 +59,3 @@ p.message {
 .letter:nth-child(16) { color: #ff4500; }
 .letter:nth-child(17) { color: #006400; }
 .letter:nth-child(18) { color: #8b008b; }
-
-/* Adicione 10 cores para o plano de fundo */
-body:nth-child(16) { background-color: #87cefa; }
-body:nth-child(17) { background-color: #f08080; }
-body:nth-child(18) { background-color: #90ee90; }
-body:nth-child(19) { background-color: #d3d3d3; }
-body:nth-child(20) { background-color: #ff6347; }
-body:nth-child(21) { background-color: #7b68ee; }
-body:nth-child(22) { background-color: #20b2aa; }
-body:nth-child(23) { background-color: #8b4513; }
-body:nth-child(24) { background-color: #5f9ea0; }
-body:nth-child(25) { background-color: #9370db; }
