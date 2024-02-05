@@ -27,5 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Associar a função ao botão de Verificar
-    document.getElementById('verificarButton').addEventListener('click', verificarEstrelas);
+    var verificarButton = document.getElementById('verificarButton');
+    verificarButton.addEventListener('click', verificarEstrelas);
+    verificarButton.addEventListener('touchstart', verificarEstrelas);
 });
