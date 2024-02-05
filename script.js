@@ -25,9 +25,12 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('resultado').innerHTML = '<p>passou perto!</p>';
         }
     }
-
-    // Associar a função ao botão de Verificar
-    var verificarButton = document.getElementById('verificarButton');
     verificarButton.addEventListener('click', verificarEstrelas);
     verificarButton.addEventListener('touchstart', verificarEstrelas);
+    verificarButton.addEventListener('touchend', function(event) {
+        // Impedir o comportamento padrão do evento touchend
+        event.preventDefault();
+        // Chamar a função verificarEstrelas
+        verificarEstrelas();
+    });
 });
