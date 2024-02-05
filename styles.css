@@ -59,3 +59,13 @@ p.message {
 .letter:nth-child(16) { color: #ff4500; }
 .letter:nth-child(17) { color: #006400; }
 .letter:nth-child(18) { color: #8b008b; }
+
+.question {
+    color: #333;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#resultado {
+    margin-top: 20px;
+}
